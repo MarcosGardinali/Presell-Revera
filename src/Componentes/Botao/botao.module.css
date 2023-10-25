@@ -1,0 +1,36 @@
+.botao{
+    background-image: linear-gradient(180deg, #C20074 0%, #f2295b 100%);
+    box-shadow: 4px 4px 0 0 #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+    transition: 0.8s all;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    outline: none;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.botao:hover{
+    background-image: linear-gradient(110deg,#f2295b 0,#C20074 100%);
+    box-shadow: none;
+    transform: scale(1.08);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .botao{
+        margin-bottom: 10%;
+    }
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .botao{
+        font-size: 1rem;
+    }
+}
