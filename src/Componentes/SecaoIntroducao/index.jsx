@@ -18,7 +18,7 @@ export default function SecaoIntroducao() {
             <p className={style.introducao__textos__beneficios}><FaCheckDouble size={16} color='#9D00EC' />Pele mais firme e hidratada</p>
         </section>
         <section className={style.introducao__imagem}>
-            <img src="https://reveracaps.com/wp-content/uploads/2023/05/mc-toploba-reveracaps-871x1024.png" alt="Foto" />
+            <img src={mulher} alt="Foto" />
             <h2 className={style.imagem__subtitulo}>"Apenas Duas Cápsulas Por Dia e Eu Cuido Da Minha Pele e Do Meu Organismo. Esse é o Colágeno Que Eu Escolhi Pra Vida!"</h2>
             <p className={style.imagem__nome}>Angel Top Loba</p>
             <Botao>
