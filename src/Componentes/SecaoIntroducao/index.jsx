@@ -2,6 +2,7 @@ import React from 'react'
 import style from './secaointroducao.module.css'
 import { FaCheckDouble } from 'react-icons/fa6';
 import Botao from '../Botao';
+import mulher from '../../assets/images/mulher.png'
 
 export default function SecaoIntroducao() {
   return (
