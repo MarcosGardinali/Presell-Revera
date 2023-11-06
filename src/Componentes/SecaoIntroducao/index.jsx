@@ -22,7 +22,7 @@ export default function SecaoIntroducao() {
             <h2 className={style.imagem__subtitulo}>"Apenas Duas Cápsulas Por Dia e Eu Cuido Da Minha Pele e Do Meu Organismo. Esse é o Colágeno Que Eu Escolhi Pra Vida!"</h2>
             <p className={style.imagem__nome}>Angel Top Loba</p>
             <Botao>
-                Acesse a Página Oficial!
+                Continuar!
             </Botao>
         </section>
     </main>
