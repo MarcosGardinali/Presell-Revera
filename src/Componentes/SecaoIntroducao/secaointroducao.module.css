@@ -42,20 +42,20 @@
 }
 
 .introducao__imagem img{
-    width: 68%;
+    width: 40%;
 }
 
 .imagem__subtitulo{
     color: #9C00EC;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 800;
     text-align: center;
 }
 
 .imagem__nome{
     color: #9C00EC;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     font-style: italic;
 }
@@ -73,5 +73,9 @@
 
     .introducao__imagem{
         width: 95%;
+    }
+
+    .introducao__imagem img{
+        width: 68%;
     }
 }

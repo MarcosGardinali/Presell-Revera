@@ -7,5 +7,12 @@
 }
 
 .cabecalho img{
-    width: 28%;
+    width: 8%;
+}
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .cabecalho img{
+        width: 28%;
+    }
 }
