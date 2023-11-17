@@ -44,6 +44,19 @@
     font-weight: 700;
 }
 
+.container__politicas__termos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5B0B7E;;
+}
+
+.politicas__termos{
+    color: #5B0B7E;
+    width: 80%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .imagem__logo__rodape{
         width: 25%;
