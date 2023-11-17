@@ -18,6 +18,7 @@ export default function Rodape() {
                     <img src={siteseguro} alt='Imagem Site Seguro' className={style.imagem__selos} />
                 </section>
             </section>
+            <p className={style.rodape__texto}>2023 ©Copyright © Revera Caps. Todos os direitos reservados. Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas, layout, aqui veículados são de propriedade exclusiva do Revera Caps. É vedada qualquer reprodução, total ou parcial, de qualquer elemento de identidade, sem expressa autorização. A violação de qualquer direito mencionado implicará na responsabilização cível e criminal nos termos da Lei. Informamos que Revera Caps é para uso diário. Seu resultado pode variar de pessoa para pessoa. Os preços dos produtos estão sujeitos a alteração sem aviso prévio. "Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site."</p>
         </footer>
     )
 }
