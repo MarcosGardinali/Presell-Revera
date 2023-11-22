@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './secaointroducao.module.css'
 import { FaCheckDouble } from 'react-icons/fa6';
-import Botao from '../Botao';
 import mulher from '../../assets/images/mulher.png'
 
 export default function SecaoIntroducao() {
@@ -21,9 +20,6 @@ export default function SecaoIntroducao() {
             <img src={mulher} alt="Foto" />
             <h2 className={style.imagem__subtitulo}>"Apenas Duas Cápsulas Por Dia e Eu Cuido Da Minha Pele e Do Meu Organismo. Esse é o Colágeno Que Eu Escolhi Pra Vida!"</h2>
             <p className={style.imagem__nome}>Angel Top Loba</p>
-            <Botao>
-                Continuar!
-            </Botao>
         </section>
     </main>
   )

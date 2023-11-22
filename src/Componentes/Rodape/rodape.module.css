@@ -18,6 +18,10 @@
     width: 33%;
 }
 
+.imagem__insta{
+    width: 100%;
+}
+
 .selos__rodape {
     display: flex;
     flex-direction: column;
