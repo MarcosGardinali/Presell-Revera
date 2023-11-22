@@ -25,4 +25,6 @@ export default function Botao({ children, link, targetId }) {
       {children}
     </a>
   );
+    <a href="https://bit.ly/3G1v38V" className={style.botao}>{children}</a>
+  )
 }
