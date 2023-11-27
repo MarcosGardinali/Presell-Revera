@@ -25,10 +25,11 @@
 
 .card__valores{
     width: 20%;
+    transition: 1s all;
 }
 
 .card__valores:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .card__valores__imagem{
