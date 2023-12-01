@@ -21,7 +21,7 @@ export default function Botao({ children, link, targetId }) {
   };
 
   return (
-    <a href={link} onClick={scrollToSection} className={style.botao}>
+    <a href={link} rel="nofollow" onClick={scrollToSection} className={style.botao}>
       {children}
     </a>
   );
