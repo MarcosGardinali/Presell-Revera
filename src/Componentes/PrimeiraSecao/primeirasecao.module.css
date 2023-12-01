@@ -50,7 +50,8 @@
     .container__primeira__secao__texto{
         width: 95%;
         padding: 1rem;
-        margin-bottom: 50%;
+        align-items: stretch;
+        margin-bottom: 65%;
     }
 
     .primeira__secao__imagens{
