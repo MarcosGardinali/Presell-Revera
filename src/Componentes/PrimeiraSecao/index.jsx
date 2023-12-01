@@ -11,7 +11,7 @@ export default function PrimeiraSecao() {
                 <img src={logo} alt="Logo" className={style.primeira__secao__imagens}/>
                 <h1 className={style.primeira__secao__titulo}>Pílula do Rejuvenescimento desenvolvida com Colágeno de Nanotecnologia Americana!</h1>
                 <h2 className={style.primeira__secao__subtitulo}>Bastam duas pílulas por dia. Poder e firmeza como NUNCA vistos!</h2>
-                <Botao>
+                <Botao targetId="SecaoComprar">
                     Quero Restaurar Minha Pele!
                 </Botao>
                 <img src={selos} alt="Selos Compra Segura" className={style.primeira__secao__imagens}/>
