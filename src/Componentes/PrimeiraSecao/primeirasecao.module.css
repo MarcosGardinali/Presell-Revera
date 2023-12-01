@@ -50,12 +50,12 @@
     .container__primeira__secao__texto{
         width: 95%;
         padding: 1rem;
-        align-items: stretch;
-        margin-bottom: 65%;
+        align-items: center;
+        margin-bottom: 100%;
     }
 
     .primeira__secao__imagens{
-        width: 50%;
+        width: 60%;
     }
 
     .primeira__secao__titulo{
