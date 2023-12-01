@@ -1,0 +1,40 @@
+.conteudo__primeira__secao {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/images/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.container__primeira__secao__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.primeira__secao__imagens {
+    width: 35%;
+}
+
+.primeira__secao__titulo {
+    color: #C44FFF;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 30px;
+    width: 30%;
+}
+
+.primeira__secao__subtitulo {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 25px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+    width: 30%;
+}
