@@ -11,16 +11,16 @@ export default function SecaoComprar() {
       <h3 className={style.secao__comprar__titulo}>Escolha Seu Kit E Tenha Uma Pele Perfeita</h3>
       <section className={style.container__valores}>
         <a href='https://bit.ly/46xnNMR' className={style.card__valores}>
-          <img className={style.card__valores__imagem} src={DezPotes} alt="Dez Potes" />
+          <img className={style.card__valores__imagem} src={DezPotes} alt="Dez Potes" loading="lazy"/>
         </a>
         <a href='https://bit.ly/3MWzVjw' className={style.card__valores}>
-          <img className={style.card__valores__imagem} src={CincoPotes} alt="Cinco Potes" />
+          <img className={style.card__valores__imagem} src={CincoPotes} alt="Cinco Potes" loading="lazy"/>
         </a>
         <a href='https://bit.ly/3sIc7cz' className={style.card__valores}>
-          <img className={style.card__valores__imagem} src={TresPotes} alt="Três Potes" />
+          <img className={style.card__valores__imagem} src={TresPotes} alt="Três Potes" loading="lazy"/>
         </a>
         <a href='https://bit.ly/3RaYmMI' className={style.card__valores}> 
-          <img className={style.card__valores__imagem} src={UmPote} alt="Um Pote" />
+          <img className={style.card__valores__imagem} src={UmPote} alt="Um Pote" loading="lazy"/>
         </a>
       </section>
     </main>

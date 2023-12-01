@@ -83,7 +83,7 @@ export default function SecaoDepoimentos() {
                 >
                     {imagens.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <img src={item.image} alt="Imagem Swiper" className={style.slide__item} />
+                            <img src={item.image} alt="Imagem Swiper" loading="lazy" className={style.slide__item} />
                         </SwiperSlide>
                     ))}
                 </Swiper>

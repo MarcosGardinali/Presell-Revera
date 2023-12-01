@@ -8,7 +8,7 @@ export default function SecaoAtencao() {
         <h2 className={style.secao__atencao__titulo}>Atenção</h2>
         <h3 className={style.secao__atencao__texto}>Este Produto Não é Vendido Em Lojas de Marketplace Como Mercado Livre, Shopee, Lojas Americanas, Magazine Luiza, Etc</h3>
         <h2 className={style.secao__atencao__subtitulo}>Cuidado Com a Pirataria!</h2>
-        <img src={Atencao} alt="Imagem De Marketplaces Proibidos" className={style.secao__atencao__imagem}/>
+        <img src={Atencao} alt="Imagem De Marketplaces Proibidos" loading="lazy" className={style.secao__atencao__imagem}/>
     </main>
   )
 }

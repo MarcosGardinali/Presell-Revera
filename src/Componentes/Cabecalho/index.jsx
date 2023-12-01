@@ -5,7 +5,7 @@ import logo from '../../assets/images/logo.png'
 export default function Cabecalho() {
   return (
     <header className={style.cabecalho}>
-       <img src={logo} alt="Logo" />     
+       <img src={logo} alt="Logo" loading="lazy"/>     
     </header>
   )
 }

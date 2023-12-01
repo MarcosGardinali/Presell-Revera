@@ -17,17 +17,7 @@
 /*Reponsividade mobile*/
 @media only screen and (max-width: 767px) {
     .conteudo__introducao {
-        display: flex;
-        justify-content: center;
         background-image: url('../../assets/images/angelbgmobile.png');
-        background-position: center center;
-        background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 }

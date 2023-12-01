@@ -28,7 +28,7 @@ export default function Conteudo() {
     
       {/*<div className={style.whatsapp__button}>
         <a href="https://api.whatsapp.com/send/?phone=5571983187610&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-            <img src={whats} alt="WhatsApp" />
+            <img src={whats} alt="WhatsApp" loading="lazy"/>
         </a>
   </div>*/}
 
