@@ -38,3 +38,28 @@
     stroke: #000;
     width: 30%;
 }
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__primeira__secao {
+        background-image: url("../../assets/images/bgmobile.png");
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .container__primeira__secao__texto{
+        width: 95%;
+    }
+
+    .primeira__secao__imagens{
+        width: 50%;
+    }
+
+    .primeira__secao__titulo{
+        width: 100%;
+    }
+
+    .primeira__secao__subtitulo{
+        width: 100%;
+    }
+}

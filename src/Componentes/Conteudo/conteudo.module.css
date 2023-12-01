@@ -22,10 +22,3 @@
     height: 40px;
     object-fit: cover;
 }
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .conteudo{
-        padding: 10% 0;
-        padding-bottom: 0;
-    }
-}
