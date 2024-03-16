@@ -40,6 +40,16 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .secao__efeitos__titulo{
+        font-size: 1.7rem;
+        width: 95%;
+    }
+
+    .secao__efeitos__subtitulo{
+        width: 95%;
+        font-size: 1.1 rem;
+    }
+
     .container__cards__efeitos{
         width: 95%;
     }
@@ -47,9 +57,19 @@
 
 /*Reponsividade mobile*/
 @media only screen and (max-width: 767px) {
+    .secao__efeitos__titulo{
+        font-size: 1.3rem;
+        width: 90%;
+    }
+
     .container__cards__efeitos{
         width: 90%;
         flex-direction: column;
         align-items: center;
+    }
+
+    .secao__efeitos__subtitulo{
+        width: 85%;
+        font-size: 1.05 rem;
     }
 }

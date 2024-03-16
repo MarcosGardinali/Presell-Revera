@@ -9,8 +9,8 @@ import SecaoSatisfacao from '../SecaoSatisfacao'
 import SecaoAtencao from '../SecaoAtencao'
 import SecaoComprar from '../SecaoComprar'
 import SecaoDuvidas from '../SecaoDuvidas'
-import whats from '../../assets/images/whats.png'
 import PrimeiraSecao from '../PrimeiraSecao'
+import SecaoWhats from '../SecaoWhats'
 
 export default function Conteudo() {
   return (
@@ -18,6 +18,7 @@ export default function Conteudo() {
       <PrimeiraSecao/>
       <SecaoIntroducao />
       <SecaoIa />
+      <SecaoWhats />
       <SecaoEfeitos />
       <SecaoDepoimentos />
       <SecaoComponentes />
