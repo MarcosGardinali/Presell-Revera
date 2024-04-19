@@ -9,9 +9,8 @@ export default function PrimeiraSecao() {
         <main className={style.conteudo__primeira__secao}>
             <section className={style.container__primeira__secao__texto}>
                 <img src={logo} alt="Logo" loading="lazy" className={style.primeira__secao__imagens}/>
-                <h1 className={style.primeira__secao__titulo}>Pílula do Rejuvenescimento desenvolvida com Colágeno de Nanotecnologia Americana!</h1>
-                <h2 className={style.primeira__secao__subtitulo}>Bastam duas pílulas por dia. Poder
-e firmeza como NUNCA vistos!</h2>
+                <h1 className={style.primeira__secao__titulo}>Qual o segredo das famosas para não terem sua beleza afetada pelo idade?</h1>
+                <h2 className={style.primeira__secao__subtitulo}>É esse segredo que o Revera Caps quer mostrar para você! A capsula que pode devolver o poder e firmeza de sua pele como mágica.</h2>
                 <Botao targetId="SecaoComprar">
                     Quero Restaurar Minha Pele!
                 </Botao>
