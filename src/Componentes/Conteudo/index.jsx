@@ -11,6 +11,8 @@ import SecaoComprar from '../SecaoComprar'
 import SecaoDuvidas from '../SecaoDuvidas'
 import PrimeiraSecao from '../PrimeiraSecao'
 import SecaoWhats from '../SecaoWhats'
+import whats from '../../assets/images/whats.png'
+
 
 export default function Conteudo() {
   return (
@@ -27,11 +29,11 @@ export default function Conteudo() {
       <SecaoComprar />
       <SecaoDuvidas />
     
-      {/*<div className={style.whatsapp__button}>
-        <a href="https://api.whatsapp.com/send/?phone=5571983187610&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+      <div className={style.whatsapp__button}>
+        <a href="https://api.whatsapp.com/send/?phone=5514998622783&text=Olá! Tenho interesse em conhecer o Revera Caps!&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className={style.conteudo__whatsapp__button}>
             <img src={whats} alt="WhatsApp" loading="lazy"/>
         </a>
-  </div>*/}
+      </div>
 
     </main>
   )

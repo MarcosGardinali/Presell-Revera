@@ -26,7 +26,7 @@
     font-size: 1.9rem;
     font-weight: 400;
     line-height: 30px;
-    width: 30%;
+    width: 40%;
 }
 
 .primeira__secao__subtitulo {
@@ -36,7 +36,7 @@
     line-height: 25px;
     -webkit-text-stroke-color: #000;
     stroke: #000;
-    width: 30%;
+    width: 40%;
 }
 
 /*Reponsividade mobile*/
