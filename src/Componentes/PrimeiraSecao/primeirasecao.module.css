@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-image: url("../../assets/images/bg.png");
+    background-color: #331E39;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

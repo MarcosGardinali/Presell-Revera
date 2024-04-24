@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './conteudo.module.css'
-import SecaoIntroducao from '../SecaoIntroducao'
+//import SecaoIntroducao from '../SecaoIntroducao'
 import SecaoIa from '../SecaoIa'
 import SecaoEfeitos from '../SecaoEfeitos'
 import SecaoDepoimentos from '../SecaoDepoimentos'
@@ -18,7 +18,6 @@ export default function Conteudo() {
   return (
     <main className={style.conteudo}>
       <PrimeiraSecao/>
-      <SecaoIntroducao />
       <SecaoIa />
       <SecaoWhats />
       <SecaoEfeitos />
